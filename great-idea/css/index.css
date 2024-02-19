@@ -63,4 +63,105 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header {
+	align-items: center;
+}
+
+.logo {
+	float: right;
+	margin: 25px 0 0 0;
+}
+
+header nav {
+	margin: 10px 0 0 25px;
+	height: 100px;
+	align-items: center;
+}
+
+header nav a:first-child {
+	margin: 25px 25px 0 0;
+}
+
+header nav a {
+	margin: 25px 25px;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+}
+
+.subheader {
+	width: 900px;
+}
+
+.box {
+	text-align: center;
+	justify-items: center;
+	width: 300px;
+	margin: 50px 50px 100px 100px;
+}
+
+button {
+	background: white;
+	border: 1px solid black;
+	padding: 10px 50px;
+	font-size: large;
+}
+
+.code {
+	width: 400px;
+	float: right;
+}
+
+.bottom {
+	border-top: 2px solid black;
+	width: 900px;
+}
+
+.features {
+	width: 425px;
+	padding: 25px 0 0 0;
+}
+
+.about {
+	width: 425px;
+	padding: 25px 0 0 0;
+	float: right;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 25px 0;
+}
+
+.services {
+	width: 280px;
+	margin: 0 0 25px 0;
+}
+
+.product {
+	width: 280px;
+	margin: 0 25px 25px 25px;
+}
+
+.vision {
+	width: 280px;
+	align: right;
+	margin: 0 0 25px 0;
+}
+
+footer {
+	border-top: 2px solid black;
+	height: 500px;
+	width: 900px;
+}
+
+.contact {
+	line-height: 1.25;
+	margin: 25px 0;
+}
+
+.copyright {
+	width: 900px;
+	height: 50px;
+	padding: 25px 0 25px 400px;
+}

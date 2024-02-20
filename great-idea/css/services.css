@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h1 {
+    font-size: 25px;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -106,20 +110,18 @@ header nav a {
 .main {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     row-gap: 50px;
     padding: 50px 0;
+    border-bottom: 2px solid black;
 }
 
 .main-element {
     border: 2px solid black;
     background: #f4f3f4;
-    width: 400px;
-    height: 200px;
-    padding: 0 10px;
-}
-
-.main-element:nth-child(2), .main-element:nth-child(3) {
+    width: 425px;
+    height: 225px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

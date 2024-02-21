@@ -127,8 +127,9 @@ header nav a {
 
 button {
     width: 150px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background: white;
 }
 
 footer {
